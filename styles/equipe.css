@@ -1,0 +1,210 @@
+html,
+body {
+  background-color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  width: 70%;
+  display: table-cell;
+  vertical-align: middle;
+  height: 80%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+.titulo {
+  color: #42595e;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 34px;
+}
+
+#logotipo {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+#empresa {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 55%;
+  top: 20%;
+}
+
+
+#content {
+    float: left;
+    width: 40%;
+    justify-content: right;
+  }
+  
+  .segundo-titulo {
+    color: #f062d8;
+    background-color: #dd88c8;
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    float: left;
+    width: 40%;
+    justify-content: right
+  }
+  h3 {
+    color: #29b6f6;
+    text-align: left;
+    font-size: 28px;
+    margin-block-start: 0;
+    display: block;
+  }
+  
+  h4 {
+    font-size: 15px;
+  }
+  
+  #menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: none;
+    list-style: none;    
+    text-align: center;
+    display: inline;
+  }
+  
+  #menu ul li {
+    display: inline;
+  }
+  
+  #menu span {
+    color: rgb(235, 0, 223);
+  }
+  
+
+  #menu ul li a {
+    padding: 5px 30px;
+    display: inline-block;
+  
+    /* visual do link */
+  
+    color: rgb(104, 71, 104);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 24px;
+  }
+  
+  #menu ul li a:hover {
+    color: #00b7ff;
+    border-bottom: 2px solid grey;
+  }
+
+#grid {
+
+  display: grid; 
+  grid-template-columns: 400px 300px; 
+  padding: 4px;
+  grid-gap: 10px 10px; 
+  background-color: #fff; 
+  color: #444; 
+}  
+
+#grid2 {
+
+  display: grid; 
+  grid-template-columns: 400px 300px; 
+  padding: 4px;
+  grid-gap: 10px 10px; 
+  background-color: #fff; 
+  color: #444; 
+}  
+
+#grid3 {
+
+  display: grid; 
+  grid-template-columns: 400px 300px; 
+  padding: 4px;
+  grid-gap: 10px 10px; 
+  background-color: #fff; 
+  color: #444; 
+}  
+
+#bioana {
+
+ width: 300px;
+
+}
+
+a:-webkit-any-link {
+  color: #5437a3;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 12px;
+  
+}
+
+#biojoao {
+
+  width: 300px;
+ 
+ }
+
+ #biocain {
+
+  width: 300px;
+ 
+ }
+
+
+
+  img {
+    width: 180px;
+    height: 200px;
+      
+}
+
+#img_circular {
+    border-radius: 30px 10px;
+
+    
+}
+
+#img_circular2 {
+    border-radius: 30px 10px;
+}
+
+#img_circular3 {
+    
+    border-radius: 30px 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    color: rgb(68, 66, 66);
+    text-align: center;
+    height: 50px;
+    font-size: 12px;
+    padding: 5px;
+  }
+  
+  footer a {
+    color: rgb(68, 66, 66);
+  }
+  

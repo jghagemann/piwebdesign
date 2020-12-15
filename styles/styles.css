@@ -1,0 +1,125 @@
+html,
+body {
+  background-color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  width: 70%;
+  display: table-cell;
+ 
+  
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+
+.titulo {
+  color: #42595e;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 34px;
+}
+
+#logotipo {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+#empresa {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: 55%;
+  top: 30%;
+}
+
+#content {
+  float: left;
+  width: 40%;
+  justify-content: right;
+}
+
+.segundo-titulo {
+  color: #f062d8;
+  background-color: #dd88c8;
+}
+
+#paragrafo-1 {
+  text-align: justify;
+  color: black;
+  background-color: #dd88c8;
+  text-align: center;
+}
+
+#paragrafo-2 {
+  color: black;
+  text-align: justify;
+  margin: 100px 100px;
+  padding: 100px 100px;
+}
+
+.container {
+  padding: 2px 16px;
+  text-align: justify;
+}
+
+h3 {
+  color: #29b6f6;
+  font-size: 28px;
+  margin-block-start: 0;
+  display: block;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+#menu ul {
+  padding: 0px;
+  margin: 0px;
+  background-color: none;
+  list-style: none;
+  text-align: center;
+  display: inline;
+}
+
+#menu ul li {
+  display: inline;
+}
+
+#menu ul li a {
+  padding: 5px 30px;
+  display: inline-block;
+
+  /* visual do link */
+
+  color: rgb(104, 71, 104);
+  text-decoration: none;
+  font-size: 20px;
+  margin: 24px;
+}
+
+#menu ul li a:hover {
+  color: #00b7ff;
+  border-bottom: 2px solid grey;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  color: rgb(68, 66, 66);
+  text-align: center;
+  height: 50px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+footer a {
+  color: rgb(68, 66, 66);
+}
